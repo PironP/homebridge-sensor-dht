@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-sensor-dht",
+  "version": "1.0.0",
+  "description": "A homebridge plugin to use a dht11 sensor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pironp",
+  "repisotory": "https://github.com/PironP/homebridge-sensor-dht",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "dht11",
+    "homebridge"
+  ],
+  "engines": {
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "node-dht-sensor": "^0.3.0"
+  }
+}
