@@ -12,7 +12,7 @@ function DhtSensor(log, config) {
     this.currentHumidity = 0;
     this.log = log;
     this.gpio = config.gpio | 4;
-    this.dhtType = config.dhtType | 11;
+    this.dhtType = config.dhtType === 'dht11' ? 11 : 22;
     this.temperatureName = config.temperature_name | 'Temperature';
     this.humidityName = config.humidity_name | 'Humidity';
 }
